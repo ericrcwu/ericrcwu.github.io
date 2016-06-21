@@ -56,7 +56,29 @@ h3 {
     float:left;
     padding:10px;
 }
-
+h2 {
+  font-family: 'Sigmar One', cursive;
+  text-align:center;
+}
+form {
+  font-family: 'Sigmar One', cursive;
+}
+input[type=email] {
+  font-family: 'Sigmar One', cursive;
+  color:#008000;
+  font-size:15.588684767664775474646747647474764px;
+}
+input[type=submit] {
+    padding:5px 15px; 
+    background:#e6e600; 
+    border:3px;
+    border-style:outset;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+input[type=placeholder] {
+  font-family: 'Poiret One', cursive;
+}
 #footer {
 	background-color:black;
     color:white;
@@ -87,6 +109,16 @@ h3 {
 
 <div id="nav">
 	<a class="button" href="https://ericrcwu.github.io/HP/" target="_blank"> My other website :D</a></div>
+	  <div id="email">
+    <h2>
+      Please Enter your email so we can confirm you into the real web.
+    </h2>
+    <form action="action_page.php">
+  E-mail:
+  <input type="email" name="email" placeholder="GIVE ME YOUR EMAIL!!!">
+  <input type="submit">
+</form>
+</div>
 <!--ALMOST-->
 <div id="marquee">
 <marquee scrolldelay="10" scrollamount="10" truespeed><a href="http://emojipedia.org/disappointed-face" target="_blank"><img src="http://vignette4.wikia.nocookie.net/icarly/images/3/37/Sad-face.png/revision/latest?cb=20120729221450" alt="Sad face" height="500" width="500"></a></marquee>
