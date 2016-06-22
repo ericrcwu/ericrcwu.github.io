@@ -405,7 +405,7 @@
 				margin-right: 0.5em;
 			}
 
-		input[type="submit"].fit,
+		a.fit,
 		input[type="reset"].fit,
 		input[type="button"].fit,
 		button.fit,
@@ -415,7 +415,7 @@
 			width: 100%;
 		}
 
-		input[type="submit"].small,
+		a.small,
 		input[type="reset"].small,
 		input[type="button"].small,
 		button.small,
@@ -423,7 +423,7 @@
 			font-size: 0.8em;
 		}
 
-		input[type="submit"].big,
+		a.big,
 		input[type="reset"].big,
 		input[type="button"].big,
 		button.big,
@@ -431,7 +431,7 @@
 			font-size: 1.35em;
 		}
 
-		input[type="submit"].special,
+		a.special,
 		input[type="reset"].special,
 		input[type="button"].special,
 		button.special,
@@ -440,7 +440,7 @@
 			box-shadow: none;
 		}
 
-			input[type="submit"].special:hover,
+			a.special:hover,
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			button.special:hover,
@@ -449,7 +449,7 @@
 				color: #ffffff !important;
 			}
 
-				input[type="submit"].special:hover:active,
+				a.special:hover:active,
 				input[type="reset"].special:hover:active,
 				input[type="button"].special:hover:active,
 				button.special:hover:active,
@@ -457,7 +457,7 @@
 					background-color: #287e6d;
 				}
 
-		input[type="submit"].disabled, input[type="submit"]:disabled,
+		a.disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
 		input[type="button"].disabled,
