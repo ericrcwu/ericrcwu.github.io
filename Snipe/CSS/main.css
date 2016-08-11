@@ -1,0 +1,70 @@
+@import 'https://fonts.googleapis.com/css?family=Fruktur';
+
+ @keyframes color {
+	from{background-color:#009933;}
+	to{background-color:#af111c;}
+} 
+
+@keyframes border{
+	from{border-color: #663300;}
+	to{border-color: #8080ff;}
+}
+
+body{
+	background-color:#af111c;
+	animation-name: color;
+    animation-duration:5s;
+    animation-timing-function: ease;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+
+#welcome {
+	font-size:45px;
+	text-align: center;
+	border-style: inset outset ridge groove;
+	border-color: #663300;
+	width:30%;
+	animation-name: border;
+    animation-duration:3s;
+    animation-timing-function: ease;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+	position: absolute;
+	left:36%;
+}
+
+#start {
+	width:220px;
+	position: absolute;
+	top: 400px;
+	left:46%;
+}
+
+#rules {
+	width:220px;
+	position: absolute;
+	top: 750px;
+	left:46%;
+}
+
+#rrules {
+	font-size:30px;
+	text-align: center;
+}
+
+.word {
+	font-family: 'Fruktur', cursive;
+}
+
+.button {
+	border-style: inset;
+	border-color: #663300;
+	font-size: 35px;
+	font-family: 'Fruktur', cursive;
+	animation-name: border;
+	animation-duration:3s;
+    animation-timing-function: ease;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
