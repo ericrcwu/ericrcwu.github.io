@@ -10,6 +10,11 @@
 	to{border-color: #8080ff;}
 }
 
+@-webkit-keyframes new{
+	from{border-color: black;}
+	to{border-color: blue;}
+}
+
 body{
 	cursor:url('http://www.rw-designer.com/cursor-view/31250.png'), auto;
 	background-color:#af111c;
@@ -69,6 +74,12 @@ body{
 	bottom:35px;
 }
 
+#shop {
+	top:350px;
+	left:46%;
+	border-style: outset;
+}
+
 .word {
 	font-family: 'Fruktur', cursive;
 }
@@ -90,10 +101,21 @@ body{
 	display: inline-block;
 }
 
+.congrats {
+	border: 5px solid black;
+	text-align: center;
+	height: 1000px;
+	animation: new 5s ease infinite alternate;
+}
+
 #moneyearned {
 	display: inline;
 }
 
 #moneysign {
 	display: inline !important;
+}
+
+#finish_wave_1 {
+
 }
