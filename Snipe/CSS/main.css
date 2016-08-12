@@ -1,16 +1,17 @@
 @import 'https://fonts.googleapis.com/css?family=Fruktur';
-
- @keyframes color {
+@import 'https://fonts.googleapis.com/css?family=Bungee+Inline';
+ @-webkit-keyframes color {
 	from{background-color:#009933;}
 	to{background-color:#af111c;}
 } 
 
-@keyframes border{
+@-webkit-keyframes border{
 	from{border-color: #663300;}
 	to{border-color: #8080ff;}
 }
 
 body{
+	cursor:url('http://www.rw-designer.com/cursor-view/31250.png'), auto;
 	background-color:#af111c;
 	animation-name: color;
     animation-duration:5s;
@@ -53,6 +54,21 @@ body{
 	text-align: center;
 }
 
+#back {
+	text-align: center;
+	width: 220px;
+	height: 170px;
+	position: absolute;
+	left:46%;
+}
+
+#img1 {
+	height:300px;
+	position: absolute;
+	left:50%;
+	bottom:35px;
+}
+
 .word {
 	font-family: 'Fruktur', cursive;
 }
@@ -67,4 +83,17 @@ body{
     animation-timing-function: ease;    
     animation-iteration-count: infinite;
     animation-direction: alternate; 
+}
+
+.zombie {
+	height:100px;
+	display: inline-block;
+}
+
+#moneyearned {
+	display: inline;
+}
+
+#moneysign {
+	display: inline !important;
 }
